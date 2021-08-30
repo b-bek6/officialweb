@@ -71,7 +71,6 @@ section{
     
     top: -20px;
     background: url(image/3.jpg);
-    background-color: green;
     background-size:cover;
     height: calc(100vh - 80px);
     flex-wrap: wrap;
