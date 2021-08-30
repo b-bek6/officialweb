@@ -368,7 +368,7 @@ a:hover spon:nth-child(4){
         left: 0;
     }
 }
-@media (max-width: 376px){
+@media (max-width: 507px){
     .firstpagetext2 a{
         font-size: 60%;
     }
@@ -377,6 +377,16 @@ a:hover spon:nth-child(4){
         
     }
 }
+@media (max-width: 311px){
+    .firstpagetext2 a{
+        font-size: 50%;
+    }
+    .firstpagetext2{
+        font-size: 50%;
+        
+    }
+}
+
 
 /*<-------------------------------------------page1-------------------------------------------------------->*/
 
@@ -700,3 +710,39 @@ ul.fabfot{
     pointer-events: auto;
     opacity: 1;
 }
+/*----------------------------slider-------------------------------*/
+
+slider{
+    position: relative;
+    display: flex;
+    background-image:url(image/back.png), linear-gradient(rgb(0, 0, 0),black);
+    padding: 3% 5%;
+}
+slider h1{
+    font-family: "Sofia", sans-serif;
+    position: absolute;
+    float: center;
+    font-style: italic;
+    color:rgb(83, 8, 77);
+    z-index: 2;
+}
+slider .carousel-inner{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+    
+}
+slider .carouselExampleDark{
+    background-color: black;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+slider .carousel-caption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    background-color: rgba(252, 252, 252, 0.616);
+    
+}
+/*----------------------------slider-------------------------------*/
