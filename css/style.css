@@ -10,7 +10,7 @@ html{
 /*<-------------------------------------------page1-------------------------------------------------------->*/
 
 .page1{
-    background-image:radial-gradient(rgb(77, 236, 157),rgb(5, 30, 68));
+    background-image:linear-gradient(rgb(0, 94, 182),rgb(55, 71, 126));
     padding:0%;
     margin: 0%;
     box-shadow: 6px 10px rgba(0, 0, 0, 0.3);
